@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "do_while循环", "do_while循环\do_while循环.csproj", "{AB1B7A41-F073-4952-82EE-A7543CFED636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "do-while练习1", "do-while练习1\do-while练习1.csproj", "{B34C36BE-A0E2-44C1-B79C-6D9024E9F004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "do_while循环练习2", "do_while循环练习2\do_while循环练习2.csproj", "{49DDC719-77AD-4FEA-89BD-280C241263D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB1B7A41-F073-4952-82EE-A7543CFED636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB1B7A41-F073-4952-82EE-A7543CFED636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB1B7A41-F073-4952-82EE-A7543CFED636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB1B7A41-F073-4952-82EE-A7543CFED636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B34C36BE-A0E2-44C1-B79C-6D9024E9F004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B34C36BE-A0E2-44C1-B79C-6D9024E9F004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B34C36BE-A0E2-44C1-B79C-6D9024E9F004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B34C36BE-A0E2-44C1-B79C-6D9024E9F004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49DDC719-77AD-4FEA-89BD-280C241263D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49DDC719-77AD-4FEA-89BD-280C241263D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49DDC719-77AD-4FEA-89BD-280C241263D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49DDC719-77AD-4FEA-89BD-280C241263D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

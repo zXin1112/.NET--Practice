@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "if语句结构", "if语句结构\if语句结构.csproj", "{B4A20085-F700-44C3-AA3A-611D6DF3C847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "if...else语句结构", "..\if...else语句结构\if...else语句结构.csproj", "{1B0AA483-2DFA-4E31-A769-C5B194CCCE73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "if..else if...else结构语句", "..\if..else if...else结构语句\if..else if...else结构语句.csproj", "{AF7DE312-4230-4BD0-A7A4-3F5198D733F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "练习题，比较三个数的大小，不考虑相等", "..\练习题，比较三个数的大小，不考虑相等\练习题，比较三个数的大小，不考虑相等.csproj", "{59DCFC63-AB8D-4941-AA3B-58CC8F0D5C12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "练习题  输入密码，提示成功与否", "..\练习题  输入密码，提示成功与否\练习题  输入密码，提示成功与否.csproj", "{A9CE3F9D-ECE2-429F-AC55-17A536005431}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "练习 输入用户名 密码 验证正确与否", "..\练习 输入用户名 密码 验证正确与否\练习 输入用户名 密码 验证正确与否.csproj", "{730DA67C-C61D-427F-9F94-9167D89300B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "练习  输入年龄判断", "..\练习  输入年龄判断\练习  输入年龄判断.csproj", "{373786ED-6E2C-49A6-A8A5-EE84D700ABDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4A20085-F700-44C3-AA3A-611D6DF3C847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4A20085-F700-44C3-AA3A-611D6DF3C847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4A20085-F700-44C3-AA3A-611D6DF3C847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4A20085-F700-44C3-AA3A-611D6DF3C847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B0AA483-2DFA-4E31-A769-C5B194CCCE73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B0AA483-2DFA-4E31-A769-C5B194CCCE73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B0AA483-2DFA-4E31-A769-C5B194CCCE73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B0AA483-2DFA-4E31-A769-C5B194CCCE73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF7DE312-4230-4BD0-A7A4-3F5198D733F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF7DE312-4230-4BD0-A7A4-3F5198D733F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF7DE312-4230-4BD0-A7A4-3F5198D733F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF7DE312-4230-4BD0-A7A4-3F5198D733F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59DCFC63-AB8D-4941-AA3B-58CC8F0D5C12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59DCFC63-AB8D-4941-AA3B-58CC8F0D5C12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59DCFC63-AB8D-4941-AA3B-58CC8F0D5C12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59DCFC63-AB8D-4941-AA3B-58CC8F0D5C12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9CE3F9D-ECE2-429F-AC55-17A536005431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9CE3F9D-ECE2-429F-AC55-17A536005431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9CE3F9D-ECE2-429F-AC55-17A536005431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9CE3F9D-ECE2-429F-AC55-17A536005431}.Release|Any CPU.Build.0 = Release|Any CPU
+		{730DA67C-C61D-427F-9F94-9167D89300B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{730DA67C-C61D-427F-9F94-9167D89300B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{730DA67C-C61D-427F-9F94-9167D89300B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{730DA67C-C61D-427F-9F94-9167D89300B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{373786ED-6E2C-49A6-A8A5-EE84D700ABDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{373786ED-6E2C-49A6-A8A5-EE84D700ABDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{373786ED-6E2C-49A6-A8A5-EE84D700ABDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{373786ED-6E2C-49A6-A8A5-EE84D700ABDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

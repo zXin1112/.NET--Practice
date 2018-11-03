@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "continue语句", "continue语句\continue语句.csproj", "{EE233957-D588-4032-B1A1-410B5A9B6E90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "continue练习", "continue练习\continue练习.csproj", "{66514F19-822F-4B39-8A12-215F9680EB6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE233957-D588-4032-B1A1-410B5A9B6E90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE233957-D588-4032-B1A1-410B5A9B6E90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE233957-D588-4032-B1A1-410B5A9B6E90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE233957-D588-4032-B1A1-410B5A9B6E90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66514F19-822F-4B39-8A12-215F9680EB6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66514F19-822F-4B39-8A12-215F9680EB6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66514F19-822F-4B39-8A12-215F9680EB6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66514F19-822F-4B39-8A12-215F9680EB6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
