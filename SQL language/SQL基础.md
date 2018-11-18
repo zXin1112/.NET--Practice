@@ -1,4 +1,4 @@
-# SQL语句
+# SQL基础语句
 
 学习的SQL语句用于SQLServer
 
@@ -77,3 +77,24 @@ ORDER BY 语句默认按照升序对记录进行排序。
 > ### 或
 > 
 		INSERT INTO table_name (column_name1, column_name2,...) VALUES (Value1, Value2,....)
+
+## SQL UPDATE 语句
+> Update 语句用于修改表中的数据。
+> ### 语法
+		UPDATE 表名称 SET 列名称 = 新值 WHERE 列名称 = 某值
+> ### SQL UPDATE 例
+> 
+	UPDATE table_name SET column_name1 = Value1, column_name2 = Value2 WHERE column_name3 = Value3
+
+## SQL DELETE 语句
+> DELETE 语句用于删除表中的行。
+> ### 语法
+		DELETE FROM 表名称 WHERE 列名称 = 值
+> ### SQL DELETE 例
+> 删除所有行
+> 
+		DELETE FROM table_name
+> 删除指定行
+> 
+		DELETE FROM table_name WHERE column_name1 = Value3
+ 
