@@ -60,8 +60,10 @@ SQL 通配符必须与 LIKE 运算符一起使用。
 
 > ### Alias 实例: 使用表名称别名
 > 假设我们有两个表分别是："Persons" 和 "Product_Orders"。我们分别为它们指定别名 "p" 和 "po"。
-
-		SELECT po.OrderID, p.LastName, p.FirstName FROM Persons AS p, Product_Orders AS po WHERE p.LastName='Adams' AND p.FirstName='John'
+>
+		SELECT po.OrderID, p.LastName, p.FirstName 
+		FROM Persons AS p, Product_Orders AS po 
+		WHERE p.LastName='Adams' AND p.FirstName='John'
 > ### Alias 实例: 使用一个列名别名
 			SELECT LastName AS Family, FirstName AS Name FROM Persons
 
@@ -70,7 +72,10 @@ SQL 通配符必须与 LIKE 运算符一起使用。
 > ### SQL JOIN 例
 > 使用关键词 JOIN 来从两个表中获取数据
 > 
-		SELECT Persons.LastName, Persons.FirstName, Orders.OrderNo FROM Persons INNER JOIN Orders ON Persons.Id_P = Orders.Id_P ORDER BY Persons.LastName
+		SELECT Persons.LastName, Persons.FirstName, Orders.OrderNo 
+		FROM Persons 
+		INNER JOIN Orders ON Persons.Id_P = Orders.Id_P 
+		ORDER BY Persons.LastName
 > ### 除了我们在上面的例子中使用的 INNER JOIN（内连接），我们还可以使用其他几种连接。
 > * JOIN: 如果表中有至少一个匹配，则返回行
 > * LEFT JOIN: 即使右表中没有匹配，也从左表返回所有的行
@@ -131,7 +136,7 @@ SQL 通配符必须与 LIKE 运算符一起使用。
 
 ## SQL FULL JOIN 关键字
 > 只要其中某个表存在匹配，FULL JOIN 关键字就会返回行。
->  ### FULL JOIN 关键字语法
+> ### FULL JOIN 关键字语法
 >
 		SELECT column_name(s)
 		FROM table_name1
