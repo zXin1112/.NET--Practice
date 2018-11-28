@@ -40,7 +40,6 @@ namespace EvevtTest
             Dozensount = 0;
             incrementer.CountedADozen += IncrementDozensCount;//订阅事件
             incrementer.Event_Test += () =>
-            
                 Console.WriteLine("Enevt_Test");
             //Lambda表达式订阅的事件
         }
