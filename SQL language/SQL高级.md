@@ -1,6 +1,6 @@
 # SQL高级
 
-学习的SQL语句用于SQLServer的
+学习用于SQLServer的SQL语句
 
 ## SQL TOP 子句
 >TOP 子句用于规定要返回的记录的数目。  

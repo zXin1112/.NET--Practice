@@ -1,6 +1,6 @@
 # SQL基础语句
 
-学习的SQL语句用于SQLServer
+学习用于SQLServer的SQL语句
 
 ## SQL SELECT
 > SELECT 语句用于从表中选取数据。
