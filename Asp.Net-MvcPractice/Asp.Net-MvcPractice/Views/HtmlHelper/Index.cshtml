@@ -1,0 +1,147 @@
+﻿@using Asp.Net_MvcPractice.Classes
+@model Asp.Net_MvcPractice.Models.EmployeeViewModel
+
+@{
+            Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <header>
+        <h1>HtmlHelperTest</h1>
+    </header>
+    <section>
+        <h2>链接</h2>
+        <section>
+            <h3>ActionLink</h3>
+            @Html.ActionLink("LinkText", "GetString")
+            @Html.ActionLink("LinkText", "GetString", "Test")
+            @Html.ActionLink("LinkText", "GetParameters", new { id = 10000 })
+        </section>
+        <section>
+            <h3>RouteLink</h3>
+            @Html.RouteLink("LinkText", new { action = "GetString" })
+            @Html.RouteLink("LinkText", new { action = "GetString", controller = "Test" })
+            @Html.RouteLink("LinkText", new { action = "GetParameters", id = 10000 })
+        </section>
+    </section>
+    <section>
+        <h2>表单元素</h2>
+        <section>
+            <h3>TextBox</h3>
+            @Html.TextBox("TextBoxId")
+            @Html.TextBox("TextBoxId1", "TextBoxValue")
+        </section>
+        <section>
+            <h3>Hidden</h3>
+            @Html.Hidden("HiddenId")
+            @Html.Hidden("HiddenId1", "HiddenValue")
+        </section>
+        <section>
+            <h3>Password</h3>
+            @Html.Password("PasswordId")
+            @Html.Password("PasswordId1", "PasswordValue")
+        </section>
+        <section>
+            <h3>CheckBox</h3>
+            @Html.CheckBox("CheckBoxId", true)
+            @Html.CheckBox("CheckBoxId", false)
+        </section>
+        <section>
+            <h3>RadioButton</h3>
+            @Html.RadioButton("RadioButtonId", "Value", true)
+            @Html.RadioButton("RadioButtonId", "Value", false)
+        </section>
+        <section>
+            <h3>DropDownList</h3>
+            @{
+                SelectListItem item;
+                List<SelectListItem> list = new List<SelectListItem>();
+                for (int i = 1; i < 5; i++)
+                {
+                    item = new SelectListItem();
+                    item.Text = "Text" + i;
+                    item.Value = "Value" + i;
+                    item.Selected = (i == 2);
+                    list.Add(item);
+                }
+            }
+            @Html.DropDownList("ListBoxId", list)
+        </section>
+        <section>
+            <h3>ListBox</h3>
+            @Html.ListBox("ListBoxId", list)
+        </section>
+    </section>
+    <section>
+        <h2>添加属性</h2>
+        @Html.TextBox("NameId", "Value", new { @class = "classText", @style = "width:200px;box-shadow: 0 0 10px rgba(0,0,0,0.5);" })
+    </section>
+    <section>
+        <h2>表单提交</h2>
+        <h2>两种方法：</h2>
+        <section>
+            <h3>方法一：</h3>
+            <p>将Html.BeginForm()函数放入@using (){}结构中这种方法可以直接生成form的开始标记和结束标记</p>
+            @using (Html.BeginForm("SubmitForm_Get", "HtmlHelper", FormMethod.Get))
+            {
+                @Html.TextBox("Get_TextBoxID")
+                @Html.CheckBox("Get_CheckBoxID", true)
+                <input type="submit" value="提交" />
+            }
+        </section>
+        <section>
+            <h3>方法二：</h3>
+            <p>写Html.BeginForm()函数生成开始标记，再在最后写Html.EndForm()函数生成结尾标记。</p>
+            @{ Html.BeginForm("SubmitForm_Post", "HtmlHelper", FormMethod.Post);}
+            @Html.TextBox("Post_TextBoxID")
+            @Html.CheckBox("Post_CheckBoxID", false)
+            <input type="submit" value="提交" />
+            @{Html.EndForm();}
+        </section>
+        <aside>
+            <h3>注意：</h3>
+            <p>这两种方法生成的结果是一样的。</p>
+        </aside>
+    </section>
+    <section>
+        <h2>TagBuilder创建自定义标签</h2>
+        <p>由于HtmlHelper中没有提交按钮，可使用TageBuilder来创建标签</p>
+        @using (Html.BeginForm("SubmitForm_Get", "HtmlHelper", FormMethod.Get))
+        {
+            @Html.TextBox("Get_TextBoxID")
+            @Html.CheckBox("Get_CheckBoxID", true)
+            @Html.Submit("submitValue")
+        }
+    </section>
+    <section>
+        <h2>强类型的HtmlHelper</h2>
+        <p>
+            强类型会用到MVC中的Model，而弱类型不用。<br />
+            Htmlhelper中几乎每一个弱类型函数都会对应一个强类型函数，<br />
+            它们的对应关系是强类型函数名比弱类型函数名多了一个For。<br />
+            比如TextBox()是一个弱类型函数，那么其对应的强类型函数就是TextBoxFor()。
+        </p>
+        @Html.TextBoxFor(m => m.EmployeeName)
+    </section>
+    <section>
+        <h2>LabelFor数据标签</h2>
+        @Html.LabelFor(m => m.EmployeeName):
+        @Html.TextBoxFor(m => m.EmployeeName)
+    </section>
+    <section>
+        <h2>DisplayFor 和 EditorFor显示和编辑Model数据</h2>
+        <p>在HtmlHelper中DisplayFor是用来显示数据的，<br />
+        而EditorFor是用来编辑数据的。<br />
+        它们都会根据元数据对数据的描述生成不同类型的HTML元素。</p>
+        @Html.DisplayFor(m => m.EmployeeName):
+        @Html.EditorFor(m => m.EmployeeName)
+    </section>
+</body>
+</html>

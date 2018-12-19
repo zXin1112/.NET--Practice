@@ -17,8 +17,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic_Struct", "Generic_S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic_Interface", "Generic_Interface\Generic_Interface.csproj", "{228B510E-84E4-4421-A975-122A2996DDCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{43FEB97E-9162-40CD-A758-8AF04F264C44}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,10 +51,6 @@ Global
 		{228B510E-84E4-4421-A975-122A2996DDCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{228B510E-84E4-4421-A975-122A2996DDCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{228B510E-84E4-4421-A975-122A2996DDCF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{43FEB97E-9162-40CD-A758-8AF04F264C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{43FEB97E-9162-40CD-A758-8AF04F264C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{43FEB97E-9162-40CD-A758-8AF04F264C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{43FEB97E-9162-40CD-A758-8AF04F264C44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
